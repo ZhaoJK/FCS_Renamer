@@ -22,13 +22,13 @@ python fcs_renamer.py /path/to/fcs/folder --output /path/to/output
 ```  
 ### Mode 2: Rename using a CSV mapping  
 ```
-python fcs_renamer.py /path/to/fcs/folder --csv mapping.csv
+python fcs_renamer.py /path/to/fcs/folder --csv mapping.csv  
 ```
-CSV format (header row required):
-filename,new_name
-sample01.fcs,Patient_001_T0
-sample02.fcs,Patient_001_T1
-Note: Files not listed in the CSV are skipped automatically.  
+CSV format (header row required):  
+filename,new_name  
+sample01.fcs,Patient_001_T0  
+sample02.fcs,Patient_001_T1  
+Note: Files not listed in the CSV are skipped automatically.   
 
 ### Dry-run (preview without writing)  
 ```
